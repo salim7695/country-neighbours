@@ -1,0 +1,26 @@
+.container{
+  padding: 20px;
+}
+
+.flash{
+  width: max-content;
+  border: 1px solid #cccccc;
+  margin: 0 auto;
+  padding: 4px;
+}
+
+.flash.info{
+  color: #1337da;
+}
+.flash.warning{
+  color: #fff000;
+  border-color: #fff000;
+}
+.flash.error{
+  color: #ff0000;
+  border-color: #ff0000;
+}
+.flash.success{
+  color: #00ff00;
+  border-color: #00ff00;
+}
